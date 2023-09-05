@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_pers"
+    style="@style/CardView.Light"
+    android:layout_width="155dp"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp">
+
+            <ImageView
+                android:id="@+id/imgcategoria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/tioairo"
+                app:layout_constraintBottom_toTopOf="@+id/txtcattitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.25" />
+
+            <TextView
+                android:id="@+id/txtcattitle"
+                android:layout_width="match_parent"
+
+                android:layout_height="45dp"
+
+                android:background="#72354653"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingStart="20dp"
+                android:text="Tio Airo"
+                android:textAlignment="textStart"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_marginTop="-4dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Eliminar"
+            app:cornerRadius="0dp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

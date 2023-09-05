@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorSelected">#FF0000</color>
+    <color name="colorUnselected">#000000</color>
+    <color name="colorbtn">#FF6961</color>
+    <!-- res/values/colors.xml -->
+    <color name="mi_color_de_borde">#2B6FE3</color>
+
+    <color name="color_icon">#424242</color>
+    <color name="color_IconInactive">#8BC34A</color>
+
+
+
+
+</resources>

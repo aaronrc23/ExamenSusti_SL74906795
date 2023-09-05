@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="registro_un_personaje">Registro un Personaje</string>
+    <string name="registrar">Registrar</string>
+    <string name="aliado">Aliado</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/listadoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/list_check"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/menu_icon_colors"
+        android:title="Listado" />
+
+    <item
+        android:id="@id/favoritoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/star__1_"
+        android:title="Favoritos" />
+
+    <item
+        android:id="@id/firebaseFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/fire_flame_curved"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/menu_icon_colors"
+        android:title="Firebase" />
+
+    <item
+        android:id="@id/logoutFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/power"
+        android:title="Cerrar Sesion" />
+
+
+</menu>
